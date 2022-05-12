@@ -46,6 +46,11 @@ query GetPosts {
         id
         slug
         title
+        hook
+        publishedAt
+        image {
+          url
+        }
 }
 }
 `;
@@ -57,6 +62,10 @@ export const GET_POST = `
           slug
           title
           body
+          publishedAt
+          image {
+            url
+          }
         }
       }
 `;

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
+.post-container {
+  margin: 10vh auto;
+  max-width: 100%;
+  padding: 2vw;
+  line-height: 1.9;
+}
+
+.post-container p {
+  line-height: 1.9;
+}
+
+.post-container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.post-container h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.post-container h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+  color: var(--light-grey);
+}
+
+pre {
+  /* display: none; */
+  width: 100%;
+  overflow-x: scroll !important;
+  border-radius: 5px;
+}
+
+.blog-image {
+  width: 100%;
+  height: 300px;
+  margin: 5vh auto;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+}
+
+.post-container a {
+  color: var(--light-blue);
+  text-decoration: none;
+  border-bottom: solid 1px var(--light-blue);
+  transition: ease-in-out 0.2s;
+}
+
+a:hover {
+  color: var(--blue);
+  border-bottom: solid 1px var(--blue);
+}
